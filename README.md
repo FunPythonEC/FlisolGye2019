@@ -1,2 +1,10 @@
-# FlisolGye2019
-El siguiente documento se muestra la ponencia realizada por parte del equipo de FunPython en el "Festival Latinoamericano de instalación de software libre Guayaquil 2019"
+<!-- $theme: default -->
+<!-- page_number: true -->
+
+# MicroPython como lenguaje de desarrollo para dispositivos IoT
+# Valeria Solano / José Laica
+## FunPython
+
+
+##### FLISOL2019 
+			 Guayaquil - Ecuador
