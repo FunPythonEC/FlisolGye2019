@@ -1,7 +1,7 @@
 <!-- $theme: default -->
 <!-- page_number: true -->
 
-# MicroPython como lenguaje de desarrollo para dispositivos IoT
+# Introducción a MicroPython como lenguaje de desarrollo para dispositivos IoT
 # Valeria Solano / José Laica
 ## FunPython
 
