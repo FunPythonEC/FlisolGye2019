@@ -8,6 +8,7 @@
 
 ##### FLISOL2019 
 			 Guayaquil - Ecuador
+---
 * Presentacion de expositores (3 mins)
 * Presentación de la comunidad FunPython - ¿Qué hacemos? ¿Por qué lo hacemos? Nuestra filosofía y forma de trabajo. (3 mins)
 * Presentación de lo utilizado (5 mins)
@@ -16,9 +17,9 @@
 	* Cloud services
 * Porque MicroPython
 * Syntaxix MicroPython:
-        * Sentencias: if, for, while.
+	* Sentencias: if, for, while
 * Aplicaciones:
-        * Tiras LED
+	* Tiras LED
 	* Conexion Wifi
 	* manejar motores (servomotor, motor DC)
-	
+---
