@@ -154,3 +154,14 @@ for i in range(180):
 # “No esperes resultados diferentes si siempre haces lo mismo” - Albert Einstein
 ---
 # "Yo no conozco el futuro. No he venido para decirles cómo acabará todo esto. Al contrario, he venido a decirles cómo va a comenzar" - Neo-Matrix, 1999.
+---
+# Requerimientos
+2 Fuentes/adaptadores (12 V)
+2 Cables USB
+1 Tiras LED
+1 Servo Motor
+1 Tarjeta de voltaje
+1 ESP 32
+Jumpers Macho-Macho y Macho-Hembra
+1 Multimetro
+1 Protoboard
