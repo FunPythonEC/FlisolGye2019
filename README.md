@@ -42,6 +42,35 @@
 * tiras LED
 * manejar motores (servomotor, motor DC)
 ---
+# Tiras LED
+from machine import Pin
+from neopixel import NeoPixel
+import time
+
+pin = Pin(14, Pin.OUT)   # set GPIO0 to output to drive NeoPixels
+np = NeoPixel(pin, 100)   # create NeoPixel driver on GPIO0 for 8 pixels
+for i in range(100): 
+  np[i] = (255,20,147)
+  np.write()
+  time.sleep_ms(100)
+# Alternar colores
+from machine import Pin
+from neopixel import NeoPixel
+import time
+
+pin = Pin(14, Pin.OUT)   # set GPIO0 to output to drive NeoPixels
+np = NeoPixel(pin, 100)   # create NeoPixel driver on GPIO0 for 8 pixels
+for i in range(100): 
+  if i%2==0:
+    np[i] = (255,20,147)
+    np.write()
+    time.sleep_ms(100)
+  if i%2!=0:
+    np[i] = (0,255,0)
+    np.write()
+    time.sleep_ms(100)
+    
+---
 # Uso de servos
 
 ~~~~ python
@@ -51,16 +80,16 @@ serv=Servo.Servo(machine.Pin(13))
 serv.write_angle(degrees=100)
 ~~~~
 
-# Uso de motores DC
+# Uso de for para servos
 
 ~~~~ python
 import machine
-pina = machine.Pin(21)
-pinb=machine.Pin(19)
-pwma = machine.PWM(p12)
-pwma.freq(500)
-pwma.duty(260)
-pinb.value(0)
+import Servo
+import time
+serv=Servo.Servo(machine.Pin(13))
+for i in range(180):
+   serv.write_angle(degrees=i)
+   time.sleep_ms(50)
 ~~~~
 
 ---
