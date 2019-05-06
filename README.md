@@ -43,6 +43,7 @@
 * manejar motores (servomotor, motor DC)
 ---
 # Tiras LED
+~~~~ python
 from machine import Pin
 from neopixel import NeoPixel
 import time
@@ -53,7 +54,9 @@ for i in range(100):
   np[i] = (255,20,147)
   np.write()
   time.sleep_ms(100)
+~~~~
 # Alternar colores
+~~~~ python
 from machine import Pin
 from neopixel import NeoPixel
 import time
@@ -69,7 +72,7 @@ for i in range(100):
     np[i] = (0,255,0)
     np.write()
     time.sleep_ms(100)
-    
+ ~~~~   
 ---
 # Uso de servos
 
