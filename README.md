@@ -42,6 +42,65 @@
 * tiras LED
 * manejar motores (servomotor, motor DC)
 ---
+# Conexion Wifi
+~~~~ python
+import network
+import socket
+import time
+
+wlan = network.WLAN(network.STA_IF)
+wlan.active(True)
+
+a=wlan.scan()
+for i in range(0,len(a)):
+    print(a[i][0])
+~~~~
+~~~~ python
+import network
+
+wlan = network.WLAN(network.STA_IF)
+wlan.active(True)
+if not wlan.isconnected():
+    print('connecting to network...')
+    #wlan.connect("Claro_LAICA0000351031","2814718066427")
+    #wlan.connect("Mrrobot","Pipo2018")
+    #wlan.connect("CIDIS","labCid1$")
+    wlan.connect("EventoPUJ","3v3nt0sf3b19")
+    
+    while not wlan.isconnected():
+        pass
+print('network config:', wlan.ifconfig())
+~~~~
+---
+~~~~ python
+import socket
+import time
+
+html= """<html>
+  <head>
+    <meta charset="uft-8"/>
+    <title>Hola Mundo en HTML</title>
+  </head>
+  <body>
+    <h1>Hola Mundo Fun</h1>
+  </body>
+</html>"""
+
+#Setup Socket WebServer
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+time.sleep(1)
+s.bind(('', 80))
+s.listen(5)
+while True:
+    conn, addr = s.accept()
+    request = conn.recv(1024)
+    request = str(request)
+    print(request)        
+    response = html
+    conn.send(response)
+    conn.close()
+~~~~
+---
 # Tiras LED
 ~~~~ python
 from machine import Pin
