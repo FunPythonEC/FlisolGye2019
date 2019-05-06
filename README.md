@@ -34,7 +34,7 @@
 # MicroPython y controladores ESP
 # Porque MicroPython
 ---
-# Syntaxix MicroPython
+# Syntanxis MicroPython
 * ejemplos: if, for, while
 ---
 # Aplicaciones 
