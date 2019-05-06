@@ -62,11 +62,7 @@ wlan = network.WLAN(network.STA_IF)
 wlan.active(True)
 if not wlan.isconnected():
     print('connecting to network...')
-    #wlan.connect("Claro_LAICA0000351031","2814718066427")
-    #wlan.connect("Mrrobot","Pipo2018")
-    #wlan.connect("CIDIS","labCid1$")
-    wlan.connect("EventoPUJ","3v3nt0sf3b19")
-    
+    wlan.connect("","")
     while not wlan.isconnected():
         pass
 print('network config:', wlan.ifconfig())
