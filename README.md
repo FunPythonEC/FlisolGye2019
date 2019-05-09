@@ -97,7 +97,7 @@ while True:
     conn.close()
 ~~~~
 ---
-# Tiras LED
+# Tiras NeoPixel
 ~~~~ python
 from machine import Pin
 from neopixel import NeoPixel
@@ -110,7 +110,7 @@ for i in range(100):
   np.write()
   time.sleep_ms(100)
 ~~~~
-# Alternar colores
+# Alternar colores NeoPixel
 ~~~~ python
 from machine import Pin
 from neopixel import NeoPixel
