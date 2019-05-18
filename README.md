@@ -18,8 +18,8 @@
 * Syntaxix MicroPython: (5 mins) VS
 	* Sentencias: if, for, while
 * Aplicaciones:
-    * Conexion Wifi (3 mins) JL
-	* Tiras LED (5 mins) VS
+    * Conexion Wifi (3 mins) VS
+	* Tiras LED (5 mins) JL
 	* manejar motores (servomotor, motor DC) (10 mins) 
 ---
 # Valeria Solano
@@ -31,16 +31,49 @@
 ---
 # Video Fun 
 ---
-# MicroPython y controladores ESP
+# MicroPython
+* Implementacion eficiente de Python.
+* Permite transferir códigos del escritorio a un microcontrolador o un sistema embebido.
+* Librerias de Python y funciones avanzadas-
+# ESP8266 y ESP32
+* microcontroladores de bajo costo
+* Bluetooth y WiFi
+* Compatibilidad con diferentes protocolos de comunicación (I2C, SPI, I2S, 1-Wire, UART).
+---
 # Porque MicroPython
 ---
 # Syntanxis MicroPython
-* ejemplos: if, for, while
+* if
+~~~~ python
+num = 3.4
+if num > 0:
+    print("Número positivo")
+elif num == 0:
+    print("Cero")
+else:
+    print("Número negativo")
+~~~~
+---
+* While
+~~~~ python
+i = 1
+while i < 6:
+  print(i)
+  if i == 3:
+    break
+  i += 1num = 3.4
+if num > 0:
+    print("Número positivo")
+elif num == 0:
+    print("Cero")
+else:
+    print("Número negativo")
+~~~~
 ---
 # Aplicaciones 
-* conexion wifi
-* tiras LED
-* manejar motores (servomotor, motor DC)
+* Conexion wifi
+* Tiras LED
+* Manejar motores (servomotor, motor DC)
 ---
 # Conexion Wifi
 ~~~~ python
@@ -110,6 +143,7 @@ for i in range(100):
   np.write()
   time.sleep_ms(100)
 ~~~~
+___
 # Alternar colores NeoPixel
 ~~~~ python
 from machine import Pin
