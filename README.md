@@ -71,9 +71,9 @@ else:
 ~~~~
 ---
 # Aplicaciones 
-* Conexion wifi
-* Tiras LED
-* Manejar motores (servomotor, motor DC)
+* conexion wifi
+* tiras LED
+* manejar motores (servomotor, motor DC)
 ---
 # Conexion Wifi
 ~~~~ python
@@ -143,7 +143,6 @@ for i in range(100):
   np.write()
   time.sleep_ms(100)
 ~~~~
-___
 # Alternar colores NeoPixel
 ~~~~ python
 from machine import Pin
