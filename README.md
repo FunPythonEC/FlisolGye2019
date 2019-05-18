@@ -18,8 +18,8 @@
 * Syntaxix MicroPython: (5 mins) VS
 	* Sentencias: if, for, while
 * Aplicaciones:
-    * Conexion Wifi (3 mins) VS
-	* Tiras LED (5 mins) JL
+    * Conexion Wifi (3 mins) JL
+	* Tiras LED (5 mins) VS
 	* manejar motores (servomotor, motor DC) (10 mins) 
 ---
 # Valeria Solano
