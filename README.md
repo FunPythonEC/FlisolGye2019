@@ -25,12 +25,6 @@
 # Valeria Solano
 * Soy Valeria Solano, estudiante de ingeniería Mecatrónica en la ESPOL, me apasiona la robótica y poder generar un impacto social y tecnológico a través de sus aplicaciones. Siempre busco participar en nuevos retos y proyectos para aprender de ellos y así mismo poder transmitir mis conocimientos a otros. Intento siempre demostrar de lo que somos capaces las mujeres en la ingeniería y la ciencia, rompiendo paradigmas e inspirando a otros a hacerlo también.
 ---
-# Jose Laica
----
-# FunPython 
----
-# Video Fun 
----
 # MicroPython
 * Implementacion eficiente de Python.
 * Permite transferir códigos del escritorio a un microcontrolador o un sistema embebido.
