@@ -53,7 +53,7 @@ while i < 6:
   print(i)
   if i == 3:
     break
-  i += 1num = 3.4
+  i += num = 3.4
 if num > 0:
     print("Número positivo")
 elif num == 0:
