@@ -34,8 +34,6 @@
 * Bluetooth y WiFi
 * Compatibilidad con diferentes protocolos de comunicación (I2C, SPI, I2S, 1-Wire, UART).
 ---
-# Porque MicroPython
----
 # Syntanxis MicroPython
 * if
 ~~~~ python
